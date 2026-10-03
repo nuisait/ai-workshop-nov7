@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AI ผู้ช่วยส่วนตัว — สร้าง Agent ของคุณเอง · Workshop 7 พ.ย. 2026</title>
+  <meta name="description" content="Workshop ภาษาไทย 90 นาที รู้จัก ChatGPT · Claude · Gemini · Grok Bot แล้วลงมือสร้างผู้ช่วย AI ส่วนตัว · เสาร์ 7 พ.ย. 2026 · 13:00–14:30 น. · Living Room Thonglor">
+  <meta name="theme-color" content="#4B2A7B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปเนื้อหาหลัก</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="AI ผู้ช่วยส่วนตัว Workshop — กลับขึ้นด้านบน">
+        <span class="brand-dot" aria-hidden="true"></span>AI ผู้ช่วยส่วนตัว
+      </a>
+      <a class="header-cta" href="#download">ดาวน์โหลด</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="#agenda">กำหนดการ</a></li>
+          <li><a href="#prepare">เตรียมตัว</a></li>
+          <li><a href="#core-prompt">Core Prompt</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#download">ดาวน์โหลด</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill">IN-PERSON WORKSHOP · 90 นาที</p>
+          <h1 id="hero-title">AI ผู้ช่วยส่วนตัว<span class="h1-sub">สร้าง Agent ของคุณเอง</span></h1>
+          <p class="lead">รู้จัก ChatGPT · Claude · Gemini · Grok Bot แล้วลงมือสร้างผู้ช่วย AI สำหรับชีวิตประจำวันของคุณ — ไม่ต้องมีพื้นฐานเทคนิค</p>
+          <ul class="hero-meta">
+            <li><span class="meta-ico" aria-hidden="true">📅</span><span><strong>วันเสาร์ที่ 7 พฤศจิกายน 2026</strong></span></li>
+            <li><span class="meta-ico" aria-hidden="true">⏰</span><span><strong>13:00–14:30 น.</strong> (90 นาที)</span></li>
+            <li><span class="meta-ico" aria-hidden="true">📍</span><span><strong>Living Room Thonglor</strong> (ห้อง Workshop)<br>81 Soi Akraphat, 13 ถ.ทองหล่อ เขตวัฒนา · <a class="hero-map" href="https://maps.app.goo.gl/f9g9xPc2UKovYxfcA?g_st=ic" target="_blank" rel="noopener">แผนที่<span class="sr-only"> (เปิดในแท็บใหม่)</span></a></span></li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn-light" href="AI_Workshop_Nov7.pdf" download>ดาวน์โหลดสไลด์ (PDF)</a>
+            <a class="btn btn-ghost" href="cheatsheet.pdf" download>ดาวน์โหลด Cheat Sheet (PDF)</a>
+          </div>
+        </div>
+        <div class="map-card" id="map">
+          <iframe title="แผนที่ Living Room Thonglor — 81 Soi Akraphat, ถ.ทองหล่อ เขตวัฒนา"
+                  src="https://www.google.com/maps?q=Living+Room.+Thonglor,+81+Soi+Akraphat,+13+Thong+Lo,+Watthana&amp;hl=th&amp;output=embed"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="map-link" href="https://maps.app.goo.gl/f9g9xPc2UKovYxfcA?g_st=ic" target="_blank" rel="noopener">เปิดใน Google Maps <span aria-hidden="true">↗</span><span class="sr-only"> (เปิดในแท็บใหม่)</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="details" aria-labelledby="details-title">
+      <div class="wrap">
+        <p class="kicker">รายละเอียดงาน</p>
+        <h2 id="details-title">กลับบ้านพร้อม AI ผู้ช่วย 1 ตัว ที่ใช้ได้จริงพรุ่งนี้</h2>
+        <div class="grid-3">
+          <article class="card">
+            <span class="card-bar" aria-hidden="true"></span>
+            <h3>สิ่งที่จะได้</h3>
+            <ul class="list">
+              <li>เลือกเครื่องมือ AI ให้ถูกงาน (ChatGPT · Claude · Gemini · Grok Bot)</li>
+              <li>เขียน prompt ให้ได้ผล และใช้ AI อย่างปลอดภัย</li>
+              <li>สร้าง Agent ส่วนตัวของคุณเอง 1 ตัว พร้อม Core Prompt</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card-bar" aria-hidden="true"></span>
+            <h3>เหมาะกับใคร</h3>
+            <ul class="list">
+              <li>คนทั่วไปที่อยากใช้ AI ช่วยชีวิตประจำวัน</li>
+              <li>ไม่ต้องมีพื้นฐานเทคนิค — เคยใช้แค่ Copilot ที่ออฟฟิศก็ตามทัน</li>
+              <li>สอนเป็นภาษาไทย ลงมือทำจริงบนเครื่องของคุณ</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card-bar" aria-hidden="true"></span>
+            <h3>รูปแบบ</h3>
+            <ul class="list">
+              <li><strong>Part 1</strong> · รู้จัก AI 4 ตัว + เทคนิค Prompt + ความปลอดภัย</li>
+              <li><strong>Part 2</strong> · Hands-on สร้าง Agent บน Grok Bot (มีแผนสำรองฟรี)</li>
+              <li>ทดสอบ ปรับปรุง และแชร์กับเพื่อน</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="agenda" aria-labelledby="agenda-title">
+      <div class="wrap">
+        <p class="kicker">Agenda</p>
+        <h2 id="agenda-title">กำหนดการ</h2>
+        <ol class="agenda">
+          <li class="ag-row"><time class="ag-time" datetime="2026-11-07T13:00+07:00">13:00</time><span class="ag-label">ต้อนรับ &amp; เตรียมเครื่อง</span><span class="ag-dur">5 นาที</span></li>
+          <li class="ag-row"><time class="ag-time" datetime="2026-11-07T13:05+07:00">13:05</time><span class="ag-label"><strong>Part 1</strong> · รู้จัก AI 4 ตัว + เทคนิค Prompt + ความปลอดภัย</span><span class="ag-dur">25 นาที</span></li>
+          <li class="ag-row ag-hl"><time class="ag-time" datetime="2026-11-07T13:30+07:00">13:30</time><span class="ag-label"><strong>Part 2a</strong> · Agent คืออะไร + Demo บน Grok Bot + Core Prompt</span><span class="ag-dur">20 นาที</span></li>
+          <li class="ag-row ag-hl"><time class="ag-time" datetime="2026-11-07T13:50+07:00">13:50</time><span class="ag-label"><strong>Part 2b</strong> · Hands-on: สร้าง Agent ของคุณเอง</span><span class="ag-dur">25 นาที</span></li>
+          <li class="ag-row ag-hl"><time class="ag-time" datetime="2026-11-07T14:15+07:00">14:15</time><span class="ag-label">ทดสอบ · ปรับปรุง · แชร์กับเพื่อน + Q&amp;A สั้นๆ</span><span class="ag-dur">15 นาที</span></li>
+          <li class="ag-row ag-buffer"><time class="ag-time" datetime="2026-11-07T14:30+07:00">14:30</time><span class="ag-label">จบ Workshop</span><span class="ag-dur">รวม 90 นาที</span></li>
+        </ol>
+        <p class="note">ติดตรงไหนยกมือถามได้ตลอด hands-on · ช่วงเวลาอาจปรับเล็กน้อยตามหน้างาน</p>
+      </div>
+    </section>
+
+    <section class="section" id="prepare" aria-labelledby="prepare-title">
+      <div class="wrap">
+        <p class="kicker">Before we start</p>
+        <h2 id="prepare-title">สิ่งที่ต้องเตรียม (ทำให้เสร็จก่อนวันงาน)</h2>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <div>
+              <h3>นำโน้ตบุ๊กมา (แนะนำ)</h3>
+              <p>ชาร์จแบตให้เต็ม มือถือใช้ได้บางส่วน แต่การแก้ไข/ทดสอบ Routine ต้องใช้แอปเดสก์ท็อป</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <div>
+              <h3>ติดตั้งแอป Grok Bot</h3>
+              <p>ดาวน์โหลดที่ <a href="https://x.ai/bot" target="_blank" rel="noopener">x.ai/bot</a> · macOS / Windows / Linux หรือแอป iPhone (iOS 18+) / Android (9+)</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <div>
+              <h3>Sign in + มีแพ็กเกจที่รองรับ</h3>
+              <p>Sign in ด้วย<strong>บัญชี Cursor</strong> ผ่านเบราว์เซอร์ · ต้องมี Cursor Pro / Pro+ / Ultra / Teams <em>หรือ</em> เชื่อม SuperGrok / SuperGrok Plus / SuperGrok Heavy / X Premium+ แบบบุคคล (เชื่อมเมื่อแอปถาม)</p>
+              <p class="small warn-text">⚠️ การเชื่อม SuperGrok/X Premium+ กับบัญชี Cursor ยกเลิกหรือย้ายไม่ได้ — ตรวจให้ถูกบัญชีก่อน</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">4</span>
+            <div>
+              <h3>ผ่านขั้นตอนแนะนำครั้งแรก</h3>
+              <p>เปิดแอปแล้วทำ first-run tour ให้จบ (ระบบตั้งค่าคอมพิวเตอร์บนคลาวด์ให้ ใช้เวลาสักพัก) จนเห็นหน้า <span lang="en">Meet a future teammate</span></p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="grid-2">
+          <div class="callout callout-fallback">
+            <h3>ไม่มีแพ็กเกจ Grok Bot? ใช้แผนสำรองฟรี</h3>
+            <p><strong>ChatGPT Projects</strong> ใช้ได้บนบัญชี Free — ล็อกอิน <a href="https://chatgpt.com" target="_blank" rel="noopener">chatgpt.com</a> ไว้ล่วงหน้า แล้วในวันงานจะใช้ Core Prompt เดียวกัน:</p>
+            <ol class="list-num">
+              <li>แถบซ้าย → <span lang="en">New project</span> → ตั้งชื่อ</li>
+              <li>เมนู ••• → <span lang="en">Project settings</span> → วาง Core Prompt ในช่อง instructions</li>
+              <li>เริ่มแชต “ในโปรเจกต์” แล้วทดสอบ</li>
+            </ol>
+            <p class="small">ไม่มีการตั้งเวลา/ลงมือทำงานแทนแบบ Grok Bot แต่ฝึกเขียน Agent ได้ครบ</p>
+          </div>
+          <div class="callout callout-warn">
+            <h3>ข้อควรรู้</h3>
+            <ul class="list">
+              <li>ใช้<strong>บัญชีส่วนตัว</strong> ไม่ใช่บัญชีบริษัท (Copilot องค์กร / Workspace ที่ทำงาน)</li>
+              <li>Grok Bot มี free trial แบบเครดิตใช้งาน (มีกรอบ 7 วัน) — ถ้าจะใช้ ให้เริ่มใกล้วันงาน และตรวจสอบสิทธิ์ในหน้า Plans ของ Cursor ก่อนสมัคร</li>
+              <li>Wi-Fi ในงาน: แจ้งชื่อและรหัสหน้างาน</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="speaker" aria-labelledby="speaker-title">
+      <div class="wrap speaker">
+        <div class="speaker-photo speaker-ph" role="img" aria-label="สัญลักษณ์แทนรูปวิทยากร Pawinee Amonnuntarat (นุ้ย)">
+          <span class="mono">นุ้ย</span>
+          <small lang="en">Pawinee A.</small>
+        </div>
+        <div>
+          <p class="kicker">วิทยากร</p>
+          <h2 id="speaker-title"><span lang="en">Pawinee Amonnuntarat</span> <span class="name-th">(นุ้ย)</span></h2>
+          <p class="speaker-tag">ผู้เชี่ยวชาญด้าน IT และ IT Consulting ประสบการณ์กว่า 20 ปี</p>
+          <dl class="bio">
+            <div>
+              <dt>ประสบการณ์</dt>
+              <dd>
+                <ul class="list">
+                  <li>ทำงานด้าน IT และ IT Consulting มากว่า 20 ปี</li>
+                  <li>Implement แพลตฟอร์มบล็อกเชน (Blockchain Platform) ให้บริษัทฟินเทค</li>
+                  <li>Implement โครงการ IT ขนาดใหญ่ที่ธนาคารชั้นนำของไทย</li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>การศึกษา</dt>
+              <dd>
+                <ul class="list">
+                  <li>วิศวกรรมสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.)</li>
+                  <li>MBA จุฬาลงกรณ์มหาวิทยาลัย</li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>ใช้ AI จริง</dt>
+              <dd>
+                <ul class="list">
+                  <li><strong>ในงาน:</strong> Microsoft Copilot · Cursor</li>
+                  <li><strong>ในชีวิตส่วนตัว:</strong> ChatGPT · Claude · Gemini · Grok Bot</li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+          <p class="goal"><strong>เป้าหมายวันนี้:</strong> ทุกคนกลับบ้านพร้อม AI ผู้ช่วย 1 ตัวที่ใช้ได้จริงพรุ่งนี้</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="core-prompt" aria-labelledby="prompt-title">
+      <div class="wrap">
+        <p class="kicker">Part 2 · Template</p>
+        <h2 id="prompt-title">Core Prompt — เติมช่องสีม่วง แล้ววางใน Description ของ Bot</h2>
+        <div class="prompt-grid">
+          <div class="prompt-box">
+            <div class="prompt-head">
+              <span class="prompt-title">Core Prompt</span>
+              <button type="button" class="btn btn-copy" id="copy-btn" data-target="core-prompt-text" aria-describedby="copy-status">
+                <span aria-hidden="true">📋</span> <span class="copy-label">คัดลอก</span>
+              </button>
+            </div>
+<pre class="prompt-text" id="core-prompt-text" tabindex="0" aria-label="ข้อความ Core Prompt"><b>บทบาท:</b> คุณคือ <i>[บทบาท]</i> ประจำตัวฉัน ดูแลเรื่อง <i>[หัวข้อ]</i>
+<b>เป้าหมาย:</b> ช่วยให้ฉัน <i>[เป้าหมาย]</i> ภายใน <i>[ระยะเวลา/เงื่อนไข]</i>
+<b>ข้อมูลเกี่ยวกับฉัน:</b> <i>[ข้อมูลเกี่ยวกับฉัน]</i> — จำไว้ และอัปเดตเมื่อฉันบอกความชอบใหม่
+<b>วิธีทำงาน:</b> ข้อมูลไม่พอ ให้ถามก่อนไม่เกิน 3 ข้อ · ใช้แอปที่เชื่อมไว้เมื่อจำเป็น · บอกแหล่งที่มา
+<b>รูปแบบคำตอบ:</b> <i>[รูปแบบคำตอบ]</i> เช่น ภาษาไทย กระชับ ตาราง/bullet
+<b>ข้อห้าม:</b> <i>[ข้อห้าม]</i> · ต้องขออนุมัติก่อน ส่งข้อความ ซื้อ ลบ หรือนัดหมายแทนฉัน · ไม่แน่ใจให้บอกตรงๆ</pre>
+            <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+          </div>
+          <div class="prompt-side">
+            <div class="card">
+              <span class="card-bar" aria-hidden="true"></span>
+              <h3>วางตรงไหน?</h3>
+              <ul class="list">
+                <li><strong>Grok Bot:</strong> Edit Profile → Description</li>
+                <li><strong>งานเฉพาะครั้ง:</strong> พิมพ์ในแชต</li>
+                <li><strong>ChatGPT:</strong> Project settings → instructions</li>
+                <li><strong>AI อื่นๆ:</strong> ข้อความแรกของแชต</li>
+              </ul>
+            </div>
+            <div class="card">
+              <span class="card-bar card-bar-deep" aria-hidden="true"></span>
+              <h3>เคล็ดลับ</h3>
+              <ul class="list">
+                <li>Description = กฎที่ต้องจริงเสมอ</li>
+                <li>เฉพาะเจาะจง &gt; ยาว</li>
+                <li>ห้ามใส่ข้อมูลระบุตัวตน/การเงินในช่องว่าง</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <details class="example">
+          <summary>ดูตัวอย่างที่เติมแล้ว: “โค้ชอาหาร” 🥗</summary>
+          <dl class="example-list">
+            <div><dt>บทบาท</dt><dd>นักโภชนาการและเชฟประจำบ้าน วางแผนอาหารประจำสัปดาห์ให้ฉัน</dd></div>
+            <div><dt>เป้าหมาย</dt><dd>ลดของทอด ทำอาหารเอง 4 วัน/สัปดาห์ งบไม่เกิน 1,500 บาท</dd></div>
+            <div><dt>ข้อมูลเกี่ยวกับฉัน</dt><dd>อยู่ 2 คน ไม่กินเนื้อวัว แพ้กุ้ง มีเวลาทำอาหาร 30 นาที</dd></div>
+            <div><dt>รูปแบบคำตอบ</dt><dd>ภาษาไทย ตารางเมนู + รายการซื้อของ + ราคาโดยประมาณ</dd></div>
+            <div><dt>ข้อห้าม</dt><dd>ห้ามเมนูกุ้ง · ห้ามสั่งซื้อของเอง ต้องถามก่อน · ไม่ให้คำแนะนำทางการแพทย์</dd></div>
+          </dl>
+          <p class="small"><strong>ตัวอย่าง Routine (Grok Bot):</strong> “ทุกวันเวลา 7:00 น. (เวลาไทย) ส่งเมนูวันนี้ 3 มื้อ + ของที่ต้องเตรียม ในแชตนี้ ถ้าไม่รู้ว่าในตู้เย็นมีอะไร ให้ถามฉันแทนการเดา ห้ามสั่งซื้อของเอง”</p>
+        </details>
+
+        <h3 class="sub-h">ไอเดีย Agent ส่วนตัว — เลือก 1 อย่างที่ใช้จริง</h3>
+        <ul class="usecases">
+          <li class="uc"><span class="uc-ico" aria-hidden="true">🥗</span><strong>โค้ชอาหารและสุขภาพ</strong><span>“จัดเมนูสัปดาห์นี้ + รายการของที่ต้องซื้อ”</span></li>
+          <li class="uc"><span class="uc-ico" aria-hidden="true">✈️</span><strong>ผู้วางแผนเที่ยว</strong><span>“ทริปญี่ปุ่น 5 วัน เดือน ธ.ค. เน้นของกินและออนเซ็น”</span></li>
+          <li class="uc"><span class="uc-ico" aria-hidden="true">💰</span><strong>ผู้ช่วยวางแผนการเงิน</strong><span>“สรุปค่าใช้จ่ายเดือนนี้ และแนะนำจุดที่ลดได้” (ไม่ใส่เลขบัญชี)</span></li>
+          <li class="uc"><span class="uc-ico" aria-hidden="true">📖</span><strong>โค้ชการเรียนรู้</strong><span>“ฝึกภาษาญี่ปุ่นวันละ 15 นาที ทดสอบฉันด้วย”</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="download" aria-labelledby="download-title">
+      <div class="wrap">
+        <p class="kicker kicker-light">Resources</p>
+        <h2 id="download-title">ดาวน์โหลดเอกสาร</h2>
+        <div class="dl-grid">
+          <article class="dl-card">
+            <div class="dl-thumb dl-thumb-slides" aria-hidden="true"><span>24</span><small>สไลด์</small></div>
+            <div class="dl-body">
+              <h3>สไลด์ Workshop</h3>
+              <p>สไลด์ทั้งหมด 24 หน้า: รู้จัก AI 4 ตัว ขั้นตอนสร้าง Agent บน Grok Bot และแผนสำรอง</p>
+              <a class="btn btn-light" href="AI_Workshop_Nov7.pdf" download aria-label="ดาวน์โหลดสไลด์ Workshop (PDF ประมาณ 1.2 MB)">⬇ ดาวน์โหลด PDF <span class="btn-meta">~1.2 MB</span></a>
+            </div>
+          </article>
+          <article class="dl-card">
+            <img class="dl-thumb" src="cheatsheet-preview.png" alt="ตัวอย่าง Cheat Sheet หน้า A4: สูตร Prompt 5 ช่อง, Core Prompt, ขั้นตอนสร้าง Agent, ไอเดีย Agent, ตารางแก้ปัญหา และความเป็นส่วนตัว" width="300" height="424" loading="lazy">
+            <div class="dl-body">
+              <h3>Cheat Sheet 1 หน้า (A4)</h3>
+              <p>สรุปสูตร Prompt, Core Prompt, ขั้นตอนสร้าง Agent, ตารางแก้ปัญหา และเรื่องความเป็นส่วนตัว — พิมพ์เก็บไว้ข้างคอมได้เลย</p>
+              <a class="btn btn-light" href="cheatsheet.pdf" download aria-label="ดาวน์โหลด Cheat Sheet (PDF ประมาณ 180 KB)">⬇ ดาวน์โหลด PDF <span class="btn-meta">~180 KB</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <p class="kicker">FAQ</p>
+        <h2 id="faq-title">คำถามที่พบบ่อย</h2>
+        <div class="faq">
+          <details>
+            <summary>ไม่มีพื้นฐานเทคนิคเลย เข้าร่วมได้ไหม?</summary>
+            <p>ได้ค่ะ Workshop นี้ออกแบบมาสำหรับคนทั่วไป ใช้ภาษาคน ไม่ต้องเขียนโค้ด ใครเคยใช้แค่ Copilot ที่ออฟฟิศก็ตามทันแน่นอน ติดตรงไหนระหว่าง hands-on ยกมือได้เลย</p>
+          </details>
+          <details>
+            <summary>ต้องเสียเงินซื้อแพ็กเกจ Grok Bot ไหม?</summary>
+            <p>Grok Bot ไม่ฟรี — ใช้ได้กับ Cursor Pro / Pro+ / Ultra / Teams หรือเชื่อม SuperGrok / SuperGrok Plus / SuperGrok Heavy / X Premium+ แบบบุคคล มี free trial แบบเครดิตใช้งาน (มีกรอบ 7 วัน งานใหญ่อาจใช้เครดิตหมดในครั้งเดียว) ส่วนสิทธิ์ trial ในไทยโปรดเช็กอีกครั้ง</p>
+            <p><strong>ไม่อยากจ่าย?</strong> ใช้ ChatGPT Projects บนบัญชีฟรีเป็นแผนสำรองได้ ใช้ Core Prompt เดียวกัน ไม่ตกหล่นค่ะ</p>
+          </details>
+          <details>
+            <summary>มี SuperGrok อยู่แล้ว ต้องสมัคร Cursor ด้วยไหม?</summary>
+            <p>Grok Bot ใช้บัญชี Cursor ในการ Sign in จึงต้องมีบัญชี Cursor แต่ไม่จำเป็นต้องซื้อแพ็กเกจ Cursor — เชื่อม SuperGrok (บุคคล) เมื่อแอปถามได้เลย ระวัง: การเชื่อมยกเลิก/ย้ายบัญชีไม่ได้ และ SuperGrok Lite / Team / Enterprise ใช้ไม่ได้</p>
+            <p class="small">หมายเหตุ: แอปแชต Grok กับ Grok Bot เป็นคนละแอป ลิมิตในแอป Grok ไม่เกี่ยวกับ Grok Bot</p>
+          </details>
+          <details>
+            <summary>ใช้มือถืออย่างเดียวได้ไหม?</summary>
+            <p>ได้บางส่วน — มีแอป Grok Bot บน iPhone (iOS 18+) และ Android (9+) สร้าง Bot และแชตได้ แต่การแก้ไขและทดสอบ Routine ต้องใช้แอปเดสก์ท็อป จึงแนะนำให้นำโน้ตบุ๊กมาค่ะ</p>
+          </details>
+          <details>
+            <summary>ใช้บัญชีบริษัท หรือใส่ข้อมูลงานได้ไหม?</summary>
+            <p>แนะนำให้ใช้บัญชีส่วนตัว และไม่ใส่ข้อมูลลูกค้าหรือเอกสารลับของบริษัท ข้อมูลงานให้ใช้เครื่องมือที่บริษัทอนุญาต (เช่น Copilot องค์กร) ตามนโยบายบริษัท กฎจำง่าย: ถ้าไม่กล้าโพสต์ลงกลุ่ม LINE ครอบครัว ก็อย่าพิมพ์ใส่ AI</p>
+          </details>
+          <details>
+            <summary>Sign in ไม่ผ่าน หรือแอปค้าง ทำยังไง?</summary>
+            <p>ลองอัปเดตแอป แล้ว Sign out / Sign in ใหม่ · ถ้ามือถือวนลูป ให้ Sign in บนเดสก์ท็อปก่อน · บัญชี Cursor ที่ใช้ Legacy Privacy Mode ต้องเปลี่ยนการตั้งค่าข้อมูลก่อนจึงจะเริ่มใช้ Grok Bot ได้ · ยังไม่ได้ มาช่วงต้อนรับ & เตรียมเครื่อง 13:00 น. หรือยกมือระหว่าง hands-on เพื่อให้ช่วยดูได้ค่ะ</p>
+          </details>
+          <details>
+            <summary>ใช้ Gemini / Claude / Copilot แทนได้ไหม?</summary>
+            <p>ได้ค่ะ วาง Core Prompt เป็นข้อความแรกของแชต แล้วคุยต่อในแชตเดิมเสมอ (ต้องวางใหม่ทุกแชต) ถ้าเป็น Copilot ของบริษัท ห้ามใส่ข้อมูลส่วนตัว</p>
+          </details>
+          <details>
+            <summary>กลับบ้านแล้วได้อะไรไปบ้าง?</summary>
+            <p>AI ผู้ช่วย 1 ตัวที่ตั้งค่าเสร็จแล้ว, Core Prompt สำหรับสร้างตัวต่อไป สไลด์ PDF และ Cheat Sheet 1 หน้า (ดาวน์โหลดได้จากหน้านี้) การบ้าน: ใช้ผู้ช่วยตัวนี้จริง 7 วัน แล้วปรับ instructions ทุกครั้งที่ไม่ตรงใจ</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>AI ผู้ช่วยส่วนตัว Workshop · 7 พ.ย. 2026 · Living Room Thonglor</p>
+      <p class="small">ข้อมูลฟีเจอร์/แพ็กเกจ ณ ต.ค. 2026 อาจเปลี่ยนแปลง โปรดตรวจสอบหน้าเว็บทางการก่อนสมัคร</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
