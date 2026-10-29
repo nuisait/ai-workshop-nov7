@@ -180,11 +180,9 @@
         </div>
         <div class="callout callout-warn caution">
           <h3 lang="en">Hallucination &amp; Bias</h3>
-          <p>AI ไม่ได้ให้คำตอบที่ถูกต้องเสมอ และมี bias ได้ไม่ต่างจากคน เคยมีกรณีแนะนำให้ใช้กาวบนพิซซ่าเพื่อให้ชีสติด และกรณีอคติในการประเมินความเสี่ยงก่ออาชญากรรม</p>
-          <p>เรื่องเงิน สุขภาพ และกฎหมาย ให้เช็กแหล่งทางการ และขอให้ AI บอกแหล่งที่มา</p>
-          <p class="small">แหล่งที่มาบนสไลด์: Peter Yang (X), Evidently AI, ProPublica, Psychology Today</p>
+          <p>AI ไม่ได้ให้คำตอบที่ถูกต้องเสมอ และมี bias ได้ไม่ต่างจากคน เรื่องเงิน สุขภาพ และกฎหมาย ให้เช็กแหล่งทางการ และขอให้ AI บอกแหล่งที่มา</p>
         </div>
-        <p class="note">ปรับ AI ให้เข้าใจเราได้ด้วย <span lang="en">Custom Instructions</span> — บอกข้อมูลพื้นฐาน ความชอบ และวิธีตอบครั้งเดียว ใน ChatGPT อยู่ที่ <span lang="en">Setting → Personalization → instructions</span></p>
+        <p class="note">ปรับ AI ให้เข้าใจเรา: ตั้ง <span lang="en">Custom Instructions</span> ใน ChatGPT — บอกข้อมูลพื้นฐาน ความชอบ และวิธีตอบครั้งเดียว ตำแหน่งเมนูให้เช็กในแอป เพราะหน้าจออาจเปลี่ยน</p>
 
         <h3 class="sub-h">AI ช่วยอะไรในชีวิตประจำวัน</h3>
         <ul class="usecases topics">
@@ -249,7 +247,7 @@
       <div class="wrap">
         <p class="kicker">03 AI Agent Demo</p>
         <h2 id="agent-title">Chatbot vs Agent ต่างกันอย่างไร</h2>
-        <p>จากแชตบอตที่ตอบคำถาม สู่ Agent ที่ลงมือทำงานแทน เดโมในงานมี Morning Brief ที่ทำให้เองตามเวลา และผู้ช่วยส่วนตัวที่ทำงานหลายขั้นต่อกัน</p>
+        <p>แชตบอตตอบเมื่อเราสั่ง ส่วน Agent ลงมือทำงานหลายขั้นตอน และเริ่มเองตามเวลาหรือเหตุการณ์ได้</p>
         <div class="compare-wrap">
           <table class="compare">
             <caption class="sr-only">ความต่างระหว่าง Chatbot กับ Agent</caption>
@@ -289,7 +287,20 @@
             </tbody>
           </table>
         </div>
-        <p class="note">หน้าจอ Grok Automations บนสไลด์ใช้ grok.com ณ 9 ต.ค. 2026 — หน้าจอจริงอาจเปลี่ยน</p>
+
+        <h3 class="sub-h">สร้าง Agent ใน Grok Bot</h3>
+        <p>สร้างบอตแล้วให้ทำงานร่วมกันได้ แพ็กเกจที่รองรับอาจเปลี่ยน — ดูวิธีล่าสุดที่ <a href="https://x.ai/bot" target="_blank" rel="noopener">x.ai/bot<span class="sr-only"> (เปิดในแท็บใหม่)</span></a></p>
+        <ol class="steps steps-seq" aria-label="แนวทางสร้าง Agent ใน Grok Bot">
+          <li class="step"><span class="step-num" aria-hidden="true">1</span><p>ดาวน์โหลดจาก <a href="https://x.ai/bot" target="_blank" rel="noopener">x.ai/bot<span class="sr-only"> (เปิดในแท็บใหม่)</span></a></p></li>
+          <li class="step"><span class="step-num" aria-hidden="true">2</span><p>Sign in บัญชี Cursor และแพ็กเกจที่รองรับ</p></li>
+          <li class="step"><span class="step-num" aria-hidden="true">3</span><p>สร้าง Bot</p></li>
+          <li class="step"><span class="step-num" aria-hidden="true">4</span><p>ใส่ Instructions</p></li>
+          <li class="step"><span class="step-num" aria-hidden="true">5</span><p>สั่งงานแรก</p></li>
+        </ol>
+        <div class="agent-notes">
+          <p><strong>เดโมในห้อง:</strong> ผู้ช่วยส่วนตัวที่จองร้าน ส่งอีเมล และลงปฏิทินได้หลายขั้น</p>
+          <p><strong>Grok Automations:</strong> ตั้ง Morning Brief ครั้งเดียว แล้วให้ทำงานตามเวลาบน <a href="https://grok.com" target="_blank" rel="noopener">grok.com<span class="sr-only"> (เปิดในแท็บใหม่)</span></a> — หน้าจอ ณ ต.ค. 2026 อาจเปลี่ยน</p>
+        </div>
 
         <h3 class="sub-h" id="blueprint-title">Agent Blueprint: 6 คำถาม</h3>
         <p>ก่อนสร้าง Agent ให้ตอบ 6 ข้อนี้ ตัวอย่างในงานคือ Morning Brief แล้วนำไปใช้เป็นแนว Instructions</p>
@@ -346,7 +357,7 @@
             <div class="dl-body">
               <h3>สไลด์ Workshop</h3>
               <p>สไลด์ 29 หน้าของ Pawinee Amonnuntarat (นุ้ย) สำหรับเวิร์กช็อป 7 พ.ย. 2026</p>
-              <a class="btn btn-light" href="assets/AI_Workshop_Pawinee_Slides.pdf" download="AI_Workshop_Pawinee_Slides.pdf">ดาวน์โหลดสไลด์ (PDF) <span class="btn-meta">~6.8 MB</span></a>
+              <a class="btn btn-light" href="assets/AI_Workshop_Pawinee_Slides.pdf" download="AI_Workshop_Pawinee_Slides.pdf">ดาวน์โหลดสไลด์ (PDF) <span class="btn-meta">~6.9 MB</span></a>
             </div>
           </article>
           <article class="dl-card">
