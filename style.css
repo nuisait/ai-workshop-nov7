@@ -243,13 +243,13 @@ nav[aria-label] { min-width: 0; max-width: 100%; }
 .prompt-side { display: grid; gap: 1rem; align-content: start; }
 
 .example { margin-top: 1.25rem; background: #fff; border-radius: var(--radius); padding: .25rem 1.1rem; box-shadow: var(--shadow); }
-.example summary, .faq summary {
+.example summary {
   cursor: pointer; font-family: var(--font-head); font-weight: 600; color: var(--deep);
   padding: .85rem 0; list-style: none; display: flex; justify-content: space-between; gap: 1rem;
 }
-.example summary::-webkit-details-marker, .faq summary::-webkit-details-marker { display: none; }
-.example summary::after, .faq summary::after { content: "+"; font-size: 1.5rem; font-weight: 700; line-height: 1; color: var(--violet-ink); flex: 0 0 auto; }
-.example[open] summary::after, .faq details[open] summary::after { content: "–"; }
+.example summary::-webkit-details-marker { display: none; }
+.example summary::after { content: "+"; font-size: 1.5rem; font-weight: 700; line-height: 1; color: var(--violet-ink); flex: 0 0 auto; }
+.example[open] summary::after { content: "–"; }
 .example-list { margin: 0 0 .75rem; display: grid; gap: .5rem; }
 .example-list div { display: grid; gap: .1rem; }
 .example-list dt { font-family: var(--font-head); font-weight: 700; color: var(--deep); }
@@ -341,12 +341,6 @@ section[id] { scroll-margin-top: 7rem; }
 /* download */
 .download { display: grid; gap: 1rem; align-items: center; }
 .download p { margin: 0; }
-
-/* faq */
-.faq { display: grid; gap: .6rem; margin-top: 1.25rem; }
-.faq details { background: #fff; border-radius: 14px; padding: 0 1.1rem; box-shadow: var(--shadow); }
-.faq details[open] { padding-bottom: .5rem; }
-
 
 /* footer */
 .site-footer { background: var(--dark); color: #DCD6E6; padding: 1.5rem 0; font-size: .95rem; }
