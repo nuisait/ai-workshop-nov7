@@ -201,12 +201,18 @@ nav[aria-label] { min-width: 0; max-width: 100%; }
 
 /* speaker */
 .speaker { display: grid; gap: 1.5rem; align-items: center; }
-.speaker-photo { width: min(200px, 60%); aspect-ratio: 3 / 4; border-radius: 20px; object-fit: cover; }
-.speaker-ph {
-  background: var(--lav2); border: 2px dashed var(--lav3); display: grid; place-content: center; text-align: center;
-  color: var(--violet-ink); font-family: var(--font-head); font-weight: 700; font-size: 1.05rem;
+.speaker-photo {
+  width: min(260px, 72%);
+  justify-self: center;
+  aspect-ratio: 720 / 1190;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center center;
+  background: var(--deep);
+  box-shadow:
+    0 0 0 4px var(--lav2),
+    0 14px 32px rgba(75, 42, 123, .18);
 }
-.speaker-ph small { color: var(--gray); font-weight: 400; font-size: .85rem; }
 .name-th { color: var(--violet-ink); font-weight: 600; }
 .speaker-tag { font-family: var(--font-head); color: var(--violet-ink); font-weight: 600; margin-bottom: 1rem; }
 .bio { margin: 0; display: grid; gap: .75rem; }
@@ -359,8 +365,8 @@ section[id] { scroll-margin-top: 7rem; }
   .blueprint { grid-template-columns: 1fr 1fr; }
   .contact { grid-template-columns: 1fr auto; }
   .ag-row { grid-template-columns: 90px 1fr auto; grid-template-areas: "time label dur"; padding: .9rem 1.3rem; }
-  .speaker { grid-template-columns: 260px 1fr; gap: 2.5rem; }
-  .speaker-photo { width: 100%; }
+  .speaker { grid-template-columns: 260px 1fr; gap: 2.5rem; align-items: center; }
+  .speaker-photo { width: 100%; justify-self: stretch; }
   .download { grid-template-columns: 1fr auto; }
   .example-list div { grid-template-columns: 170px 1fr; gap: 1rem; }
   .bio > div { grid-template-columns: 120px 1fr; gap: 1rem; }
@@ -404,7 +410,6 @@ section[id] { scroll-margin-top: 7rem; }
 .dl-thumb-slides { display: grid; place-content: center; text-align: center; background: var(--lav2); color: var(--deep); font-family: var(--font-head); font-weight: 700; aspect-ratio: 210 / 297; }
 .dl-thumb-slides span { font-size: 2rem; line-height: 1; }
 .dl-thumb-slides small { font-size: .85rem; }
-.speaker-ph .mono { font-size: 2.6rem; color: var(--deep); line-height: 1.2; }
 @media (min-width: 720px) {
   .dl-grid { grid-template-columns: minmax(0, 42rem); }
   .dl-card { grid-template-columns: 130px minmax(0, 1fr); padding: 1.25rem; }
