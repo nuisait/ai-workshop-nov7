@@ -406,7 +406,7 @@ section[id] { scroll-margin-top: 7rem; }
 .dl-thumb-slides small { font-size: .85rem; }
 .speaker-ph .mono { font-size: 2.6rem; color: var(--deep); line-height: 1.2; }
 @media (min-width: 720px) {
-  .dl-grid { grid-template-columns: 1fr 1fr; }
+  .dl-grid { grid-template-columns: minmax(0, 42rem); }
   .dl-card { grid-template-columns: 130px minmax(0, 1fr); padding: 1.25rem; }
   .dl-thumb { width: 130px; }
 }
